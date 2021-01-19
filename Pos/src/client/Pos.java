@@ -5,9 +5,9 @@ public abstract class Pos {
     private int price = 1000;
     public void pay() {
     	if(payment.pay(price)) {
-    		System.out.println("결제 완료");
+    		System.out.println("<class Pos>결제 완료");
     	}else {
-    		System.out.println("결제 실패");
+    		System.out.println("<class Pos>결제 실패");
     	}
     }
     
