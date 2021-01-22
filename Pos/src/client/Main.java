@@ -24,6 +24,8 @@ public class Main {
 		}
 		pos.pay();
 		
+		pos.assetStat();
+		
 		sc.close();
 	}
 
